@@ -452,7 +452,7 @@ html, body {
     /*background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(120deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;*/
     /*background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto;*/
     /*background-position: 10%, 30%, 50%, 70%, 90%, 0;*/
-    background: linear-gradient(120deg, #121212 0%, #121212 100%) no-repeat;
+    background: linear-gradient(150deg, #121212 0%, #121212 100%) no-repeat;
     background-position: 0;
     background-size: 100% auto;
     background-attachment: fixed;
@@ -520,7 +520,7 @@ html, body {
 
 .about {
     height: 26.25em;
-    margin: 10em 0;
+    margin: 5em 0;
     color: coral;
 }
 
