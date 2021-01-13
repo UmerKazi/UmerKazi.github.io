@@ -1738,6 +1738,7 @@ object {
 .portfolio-item {
   position: relative;
   overflow: hidden;
+  align-content: center;
 }
 .portfolio-item .thumb {
   overflow: hidden;
@@ -2233,3 +2234,9 @@ select.portfolio-filter-mobile {
     position: relative;
     width: 30%;
 }
+
+.center {
+    position: absolute;
+    
+}
+
