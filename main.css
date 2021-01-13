@@ -609,7 +609,7 @@ html, body {
 }
 
 .projects {
-    margin: 35em 0 5em 0;
+    margin: 40em 0 0em 0;
 }
 
 .load-more {
@@ -2231,5 +2231,5 @@ select.portfolio-filter-mobile {
 
 .um-grid {
     position: relative;
-    width: 340px;
+    width: 30%;
 }
