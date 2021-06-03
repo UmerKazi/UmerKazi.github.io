@@ -22,3 +22,8 @@
   font-weight: 700;
   src: url(../fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZ9hjQ.ttf) format('truetype');
 }
+
+.link:hover {
+  color: rgb(49, 49, 49);
+}
+
