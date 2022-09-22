@@ -1642,6 +1642,7 @@ body.opened .kura_tm_hero .down {
     margin-bottom: 42px;
     font-family: "Montserrat";
     font-size: 18px;
+    font-weight: 400;
 }
 .kura_tm_contact .short {
     width: 100%;
