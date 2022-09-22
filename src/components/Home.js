@@ -22,7 +22,7 @@ const Home = () => {
             <div className="left">
               <h3 className="job">Hello! <br/> I'm Umer.</h3>
               <div className="services">
-                <h5 style={{ color: 'grey' }}>Currently, I am an Honours Mathematics student at the University of Waterloo. Outside of school, I am an avid photographer, a self-taught maker, and software developer striving to make a meaningful impact on the world around me!</h5>
+                <h5 style={{ color: 'grey' }}>Currently, I am an Honours Mathematics student at the University of Waterloo. Outside of school, I am an avid photographer, a self-taught maker, and a software developer striving to make a meaningful impact on the world around me!</h5>
                 {/* <ul>
                   <li>
                     <a

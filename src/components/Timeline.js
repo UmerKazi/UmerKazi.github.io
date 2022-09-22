@@ -11,6 +11,7 @@ const Timeline = () => {
           </div>
           <div className="timeline_list">
             <ul>
+            <hr style={{ border: 'none', color: '#5c5d62', backgroundColor: '#5c5d62', height: '1px' }}/>
               <li
                 className="wow fadeInUp"
                 data-wow-duration=".7s"
@@ -41,6 +42,7 @@ const Timeline = () => {
                   <span><strong>Bitbuy - WonderFi</strong>, Toronto</span>
                 </div>
                 <br/>
+                <hr style={{ border: 'none', color: '#5c5d62', backgroundColor: '#5c5d62', height: '1px', marginTop: '27px' }}/>
                 <br/>
                 <div className="list_inner_desc">
                   <p style={{ fontSize: '18px' }}>• Member of the front-end web development team, responsible for optimizing front-end infrastructure, addressing bugs, and researching/planning improvements and new features.
@@ -63,6 +65,7 @@ const Timeline = () => {
                   <span><strong>Year Zero Studios</strong>, Toronto</span>
                 </div>
                 <br/>
+                <hr style={{ border: 'none', color: '#5c5d62', backgroundColor: '#5c5d62', height: '1px', marginTop: '27px' }}/>
                 <br/>
                 <div className="list_inner_desc">
                   <p style={{ fontSize: '18px' }}>• Team lead for the Mental Health Score project, responsible for the development, management, branding, and marketing of this project.
@@ -85,6 +88,7 @@ const Timeline = () => {
                   <span><strong>OneTriam</strong>, Markham</span>
                 </div>
                 <br/>
+                <hr style={{ border: 'none', color: '#5c5d62', backgroundColor: '#5c5d62', height: '1px', marginTop: '27px' }}/>
                 <br/>
                 <div className="list_inner_desc">
                   <p style={{ fontSize: '18px' }}>• Independently undertook the system maintenance and security implementations of various multi-million dollar company databases and user accounts via the CyberArk security suite.
