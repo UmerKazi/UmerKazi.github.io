@@ -7,7 +7,6 @@ import Timeline from "../src/components/Timeline";
 import Footer from "../src/layout/Footer";
 import Header from "../src/layout/Header";
 import PageHead from "../src/PageHead";
-import "../public/css/style.css";
 
 const IndexDark = () => {
   useEffect(() => {
