@@ -1289,10 +1289,12 @@ body.opened .kura_tm_hero .down {
     clear: both;
     float: left;
     padding-top: 54px;
+    font-family: "Mulish";
 }
 .kura_tm_timeline .timeline_list ul {
     margin: 0px;
     list-style-type: none;
+    font-family: "Mulish";
 }
 .kura_tm_timeline .timeline_list ul li {
     margin: 0px;
@@ -1300,24 +1302,30 @@ body.opened .kura_tm_hero .down {
     float: left;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 27px 0px 30px 0px;
+    font-family: "Mulish";
 }
 .kura_tm_timeline .timeline_list ul li:last-child {
     border-bottom: none;
+    font-family: "Mulish";
 }
 .kura_tm_timeline .timeline_list ul li .list_inner {
     width: 33.3333%;
     float: left;
     padding-right: 40px;
+    font-family: "Mulish";
 }
 .kura_tm_timeline .timeline_list ul li .list_inner:last-child {
     padding-right: 0px;
+    font-family: "Mulish";
 }
 .kura_tm_timeline .timeline_list ul li .list_inner span {
     display: inline-block;
     font-size: 18px;
+    font-family: "Mulish";
 }
 .kura_tm_timeline .timeline_list ul li .list_inner:nth-child(2) span {
     color: #000;
+    font-family: "Mulish";
 }
 
 /*---------------------------------------------------*/
