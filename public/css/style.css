@@ -1815,6 +1815,7 @@ body.opened .kura_tm_hero .down {
 }
 .kura_tm_copyright .text p {
     color: #fff;
+    font-family: "Montserrat";
 }
 .kura_tm_copyright .social ul {
     margin: 0px;
