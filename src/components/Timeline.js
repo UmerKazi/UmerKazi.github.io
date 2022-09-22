@@ -23,7 +23,7 @@ const Timeline = () => {
                   <span style={{fontSize: '24px'}}>Software Developer</span>
                 </div>
                 <div className="list_inner">
-                  <span><b>Enlighted Inc - Siemens</b>, Waterloo</span>
+                  <span><strong>Enlighted Inc - Siemens</strong>, Waterloo</span>
                 </div>
               </li>
               <li
@@ -38,14 +38,14 @@ const Timeline = () => {
                 <span style={{fontSize: '24px'}}>Front End Developer</span>
                 </div>
                 <div className="list_inner">
-                  <span><b>Bitbuy - WonderFi</b>, Toronto</span>
+                  <span><strong>Bitbuy - WonderFi</strong>, Toronto</span>
                 </div>
                 <br/>
                 <br/>
                 <div>
                   <p style={{ fontSize: '18px' }}>• Member of the front-end web development team, responsible for optimizing front-end infrastructure, addressing bugs, and researching/planning improvements and new features.
-                    <br/>• Made over <b style={{ color: '#ff4522' }}>100</b> contributions to the <b style={{ color: '#ff4522' }}>Gatsby React</b> web application, working with tools such as <b style={{ color: '#ff4522' }}>Drupal, Wordpress, AWS Amplify, Pantheon, </b>and <b style={{ color: '#ff4522' }}>StorybookJS</b> to improve and build upon the product.
-                    <br/>• Researched, planned, and managed the implemention of <b style={{ color: '#ff4522' }}>UI/UX</b> improvements to the web application, contributing to the ongoing experience and design overhaul of the brand</p>
+                    <br/>• Made over <strong style={{ color: '#ff4522' }}>100</strong> contributions to the <strong style={{ color: '#ff4522' }}>Gatsby React</strong> web application, working with tools such as <strong style={{ color: '#ff4522' }}>Drupal, Wordpress, AWS Amplify, Pantheon, </strong>and <strong style={{ color: '#ff4522' }}>StorybookJS</strong> to improve and build upon the product.
+                    <br/>• Researched, planned, and managed the implemention of <strong style={{ color: '#ff4522' }}>UI/UX</strong> improvements to the web application, contributing to the ongoing experience and design overhaul of the brand</p>
                 </div>
               </li>
               <li
@@ -60,14 +60,14 @@ const Timeline = () => {
                 <span style={{fontSize: '24px'}}>Software Developer</span>
                 </div>
                 <div className="list_inner">
-                  <span><b>Year Zero Studios</b>, Toronto</span>
+                  <span><strong>Year Zero Studios</strong>, Toronto</span>
                 </div>
                 <br/>
                 <br/>
                 <div>
                   <p style={{ fontSize: '18px' }}>• Team lead for the Mental Health Score project, responsible for the development, management, branding, and marketing of this project.
-                    <br/>• Completely overhauled the service, taking it from its initial inception to a full-stack web application built using <b style={{ color: '#ff4522' }}>TypeScript, React, and Firebase </b>. The front-end was styled and structured with <b style={{ color: '#ff4522' }}>Material-UI</b> and the web application was hosted on <b style={{ color: '#ff4522' }}>Vercel</b>.
-                    <br/>• Re-branded Mental Health Score in order to target a new market of customers and successfully launched a strategic marketing campaign, resulting in a <b style={{ color: '#ff4522' }}>300% increase</b> in the user base.</p>
+                    <br/>• Completely overhauled the service, taking it from its initial inception to a full-stack web application built using <strong style={{ color: '#ff4522' }}>TypeScript, React, and Firebase </strong>. The front-end was styled and structured with <strong style={{ color: '#ff4522' }}>Material-UI</strong> and the web application was hosted on <strong style={{ color: '#ff4522' }}>Vercel</strong>.
+                    <br/>• Re-branded Mental Health Score in order to target a new market of customers and successfully launched a strategic marketing campaign, resulting in a <strong style={{ color: '#ff4522' }}>300% increase</strong> in the user base.</p>
                 </div>
               </li>
               <li
@@ -82,14 +82,14 @@ const Timeline = () => {
                 <span style={{fontSize: '24px'}}>Computer Systems Analyst</span>
                 </div>
                 <div className="list_inner">
-                  <span><b>OneTriam</b>, Markham</span>
+                  <span><strong>OneTriam</strong>, Markham</span>
                 </div>
                 <br/>
                 <br/>
                 <div>
                   <p style={{ fontSize: '18px' }}>• Independently undertook the system maintenance and security implementations of various multi-million dollar company databases and user accounts via the CyberArk security suite.
-                    <br/>• Created <b style={{ color: '#ff4522' }}>15 PowerShell scripts</b> in order to automate software functionality and the deployment of security tools for organizations.
-                    <br/>• Collaborated with team members to create over <b style={{ color: '#ff4522' }}>100 pages</b> of personalized software documentation for company clientele.</p>
+                    <br/>• Created <strong style={{ color: '#ff4522' }}>15 PowerShell scripts</strong> in order to automate software functionality and the deployment of security tools for organizations.
+                    <br/>• Collaborated with team members to create over <strong style={{ color: '#ff4522' }}>100 pages</strong> of personalized software documentation for company clientele.</p>
                 </div>
               </li>
             </ul>
