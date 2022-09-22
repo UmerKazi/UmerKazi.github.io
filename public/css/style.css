@@ -928,8 +928,8 @@ body.opened .kura_tm_hero .down {
     display: inline-block;
     margin-bottom: 10px;
     color: #ff4522;
-    font-family: "Poppins-6";
-    font-weight: 500;
+    font-family: "Poppins-8";
+    font-weight: 800;
 }
 .kura_tm_main_title h3 {
     font-weight: 800;
@@ -1020,7 +1020,7 @@ body.opened .kura_tm_hero .down {
     margin-bottom: 4px;
 }
 .kura_tm_portfolio .portfolio_list .details span {
-    font-family: "Poppins-4";
+    font-family: "Poppins-6";
 }
 .kura_tm_portfolio .portfolio_list .image .svg {
     position: absolute;
@@ -1672,9 +1672,9 @@ body.opened .kura_tm_hero .down {
     width: 100%;
     float: left;
     margin-bottom: 42px;
-    font-family: "Poppins-4";
+    font-family: "Poppins-8";
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 800;
 }
 .kura_tm_contact .short {
     width: 100%;
