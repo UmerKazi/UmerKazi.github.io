@@ -1,0 +1,34 @@
+@import "jarallax/dist/jarallax.css";
+@import "react-awesome-lightbox/build/style.css";
+@import "react-modal-video/css/modal-video.css";
+@import "react-responsive-modal/styles.css";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "../public/css/colors.css";
+@import "../public/css/dark.css";
+@import "../public/css/plugins.css";
+@import "../public/css/style.css";
+@import "react-awesome-lightbox/build/style.css";
+
+a {
+  cursor: pointer;
+}
+
+.kura_tm_settings .colors li {
+  margin: 0 3px;
+  display: inline-block;
+}
+
+.dark .svg {
+  filter: invert(1);
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.settingSvg {
+  filter: unset !important;
+}

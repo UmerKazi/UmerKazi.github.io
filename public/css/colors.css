@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+
+.kura_tm_settings .colors li a.blue{background-color: #4169e1;}
+.kura_tm_settings .colors li a.green{background-color: #66B95C;}
+.kura_tm_settings .colors li a.brown{background-color: #ff9800;}
+.kura_tm_settings .colors li a.pink{background-color: #ff5e94;}
+.kura_tm_settings .colors li a.orange{background-color: #ff4522;}
+.kura_tm_settings .colors li a.black{background-color: #333;}
+.kura_tm_settings .colors li a.white{background-color: #e5e5e5;}
+.kura_tm_settings .colors li a.purple{background-color: #9200ee;}
+.kura_tm_settings .colors li a.sky{background-color: #00D4BD;}
+.kura_tm_settings .colors li a.cadetBlue{background-color: #5e9e9f;}
+.kura_tm_settings .colors li a.crimson{background-color: #e65f78;}
+.kura_tm_settings .colors li a.olive{background-color: #666d41;}
+.kura_tm_settings .colors li a.red{background-color: #fe0000;}
+
+
+.kura_tm_all_wrap[data-color="blue"] .cursor-inner.cursor-hover{background-color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .cursor-outer{border-color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .cursor-inner{background-color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_topbar .list ul li.current a{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_topbar .list ul li a:hover{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_hero .name{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_hero .content .right .image .shape{background-color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_hero .services ul li a:hover{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_hero .services ul li a:hover .svg{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_hero .down a:hover{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_main_title span{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .progress_inner .background .bar_in{background: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_pricing .right .svg{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_contact .short ul li .list_inner .svg{color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_button a{background-color: #4169e1;}
+.kura_tm_all_wrap[data-color="blue"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="green"] .cursor-inner.cursor-hover{background-color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .cursor-outer{border-color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .cursor-inner{background-color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_topbar .list ul li.current a{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_topbar .list ul li a:hover{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_hero .name{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_hero .content .right .image .shape{background-color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_hero .services ul li a:hover{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_hero .services ul li a:hover .svg{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_hero .down a:hover{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_main_title span{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .progress_inner .background .bar_in{background: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_pricing .right .svg{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_contact .short ul li .list_inner .svg{color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_button a{background-color: #66B95C;}
+.kura_tm_all_wrap[data-color="green"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="brown"] .cursor-inner.cursor-hover{background-color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .cursor-outer{border-color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .cursor-inner{background-color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_topbar .list ul li.current a{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_topbar .list ul li a:hover{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_hero .name{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_hero .content .right .image .shape{background-color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_hero .services ul li a:hover{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_hero .services ul li a:hover .svg{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_hero .down a:hover{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_main_title span{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .progress_inner .background .bar_in{background: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_pricing .right .svg{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_contact .short ul li .list_inner .svg{color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_button a{background-color: #ff9800;}
+.kura_tm_all_wrap[data-color="brown"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="pink"] .cursor-inner.cursor-hover{background-color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .cursor-outer{border-color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .cursor-inner{background-color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_topbar .list ul li.current a{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_topbar .list ul li a:hover{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_hero .name{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_hero .content .right .image .shape{background-color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_hero .services ul li a:hover{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_hero .services ul li a:hover .svg{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_hero .down a:hover{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_main_title span{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .progress_inner .background .bar_in{background: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_pricing .right .svg{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_contact .short ul li .list_inner .svg{color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_button a{background-color: #ff5e94;}
+.kura_tm_all_wrap[data-color="pink"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="orange"] .cursor-inner.cursor-hover{background-color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .cursor-outer{border-color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .cursor-inner{background-color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_topbar .list ul li.current a{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_topbar .list ul li a:hover{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_hero .name{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_hero .content .right .image .shape{background-color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_hero .services ul li a:hover{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_hero .services ul li a:hover .svg{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_hero .down a:hover{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_main_title span{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .progress_inner .background .bar_in{background: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_pricing .right .svg{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_contact .short ul li .list_inner .svg{color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_button a{background-color: #ff4522;}
+.kura_tm_all_wrap[data-color="orange"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="black"] .cursor-inner.cursor-hover{background-color: #000;}
+.kura_tm_all_wrap[data-color="black"] .cursor-outer{border-color: #000;}
+.kura_tm_all_wrap[data-color="black"] .cursor-inner{background-color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_topbar .list ul li.current a{color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_topbar .list ul li a:hover{color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_hero .name{color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_hero .content .right .image .shape{background-color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_hero .services ul li a:hover{color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_hero .services ul li a:hover .svg{color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_hero .down a:hover{color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_main_title span{color: #fff;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #000;}
+.kura_tm_all_wrap[data-color="black"] .progress_inner .background .bar_in{background: #fff;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_pricing .right .svg{color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_contact .short ul li .list_inner .svg{color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_button a{background-color: #000;}
+.kura_tm_all_wrap[data-color="black"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="white"] .cursor-inner.cursor-hover{background-color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .cursor-outer{border-color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .cursor-inner{background-color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_topbar .list ul li.current a{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_topbar .list ul li a:hover{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_hero .name{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_hero .content .right .image .shape{background-color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_hero .services ul li a:hover{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_hero .services ul li a:hover .svg{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_hero .down a:hover{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_main_title span{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .progress_inner .background .bar_in{background: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_pricing .right .svg{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_pricing .right ul li .list_inner:hover .svg{color: #000;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_pricing .right ul li .list_inner:hover span{color: #000;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_contact .short ul li .list_inner .svg{color: #fff;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_button a{background-color: #fff;color: #000;}
+.kura_tm_all_wrap[data-color="white"] .kura_tm_button a:hover{background-color: #fff;}
+
+
+.kura_tm_all_wrap[data-color="purple"] .cursor-inner.cursor-hover{background-color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .cursor-outer{border-color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .cursor-inner{background-color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_topbar .list ul li.current a{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_topbar .list ul li a:hover{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_hero .name{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_hero .content .right .image .shape{background-color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_hero .services ul li a:hover{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_hero .services ul li a:hover .svg{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_hero .down a:hover{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_main_title span{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .progress_inner .background .bar_in{background: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_pricing .right .svg{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_contact .short ul li .list_inner .svg{color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_button a{background-color: #9200ee;}
+.kura_tm_all_wrap[data-color="purple"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="sky"] .cursor-inner.cursor-hover{background-color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .cursor-outer{border-color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .cursor-inner{background-color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_topbar .list ul li.current a{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_topbar .list ul li a:hover{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_hero .name{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_hero .content .right .image .shape{background-color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_hero .services ul li a:hover{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_hero .services ul li a:hover .svg{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_hero .down a:hover{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_main_title span{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .progress_inner .background .bar_in{background: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_pricing .right .svg{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_contact .short ul li .list_inner .svg{color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_button a{background-color: #00D4BD;}
+.kura_tm_all_wrap[data-color="sky"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="cadetBlue"] .cursor-inner.cursor-hover{background-color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .cursor-outer{border-color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .cursor-inner{background-color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_topbar .list ul li.current a{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_topbar .list ul li a:hover{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_hero .name{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_hero .content .right .image .shape{background-color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_hero .services ul li a:hover{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_hero .services ul li a:hover .svg{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_hero .down a:hover{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_main_title span{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .progress_inner .background .bar_in{background: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_pricing .right .svg{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_contact .short ul li .list_inner .svg{color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_button a{background-color: #5e9e9f;}
+.kura_tm_all_wrap[data-color="cadetBlue"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="olive"] .cursor-inner.cursor-hover{background-color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .cursor-outer{border-color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .cursor-inner{background-color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_topbar .list ul li.current a{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_topbar .list ul li a:hover{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_hero .name{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_hero .content .right .image .shape{background-color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_hero .services ul li a:hover{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_hero .services ul li a:hover .svg{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_hero .down a:hover{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_main_title span{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .progress_inner .background .bar_in{background: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_pricing .right .svg{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_contact .short ul li .list_inner .svg{color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_button a{background-color: #666d41;}
+.kura_tm_all_wrap[data-color="olive"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="crimson"] .cursor-inner.cursor-hover{background-color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .cursor-outer{border-color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .cursor-inner{background-color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_topbar .list ul li.current a{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_topbar .list ul li a:hover{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_hero .name{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_hero .content .right .image .shape{background-color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_hero .services ul li a:hover{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_hero .services ul li a:hover .svg{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_hero .down a:hover{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_main_title span{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .progress_inner .background .bar_in{background: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_pricing .right .svg{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_contact .short ul li .list_inner .svg{color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_button a{background-color: #e65f78;}
+.kura_tm_all_wrap[data-color="crimson"] .kura_tm_button a:hover{background-color: #000;}
+
+
+.kura_tm_all_wrap[data-color="red"] .cursor-inner.cursor-hover{background-color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .cursor-outer{border-color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .cursor-inner{background-color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_topbar .list ul li.current a{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_topbar .list ul li a:hover{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_hero .name{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_hero .content .right .image .shape{background-color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_hero .services ul li a:hover{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_hero .services ul li a:hover .svg{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_hero .down a:hover{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_main_title span{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_swiper_progress .my_navigation ul li a:hover{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .progress_inner .background .bar_in{background: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_pricing .right .svg{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_pricing .right ul li .list_inner:hover{background-color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_contact .short ul li .list_inner .svg{color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_button a{background-color: #fe0000;}
+.kura_tm_all_wrap[data-color="red"] .kura_tm_button a:hover{background-color: #000;}
+

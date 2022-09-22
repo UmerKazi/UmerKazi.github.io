@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+body.dark{
+	background-color: #494b50;
+	color: #a7afbd;
+}
+body.dark ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #a7afbd;
+}
+body.dark :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #a7afbd;
+   opacity:  1;
+}
+body.dark ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #a7afbd;
+   opacity:  1;
+}
+body.dark :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #a7afbd;
+}
+body.dark ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #a7afbd;
+}
+
+body.dark ::placeholder { /* Most modern browsers support this now. */
+   color: #a7afbd;
+}
+
+body.dark::-webkit-scrollbar {
+  width: 11px;
+}
+body.dark{
+  scrollbar-width: thin;
+  scrollbar-color: #999 #494b50;
+}
+body.dark:-webkit-scrollbar-track {
+  background: #494b50;
+}
+body.dark::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 6px;
+  border: 3px solid #494b50;
+}
+
+body.dark h3{
+	color: #fff;
+}
+body.dark .kura_tm_topbar.animate .wrapper{
+	background-color: #303134;
+}
+body.dark .kura_tm_mobile_menu .mobile_menu_inner{
+	background-color: #303134;
+}
+body.dark .kura_tm_mobile_menu .dropdown{
+	background-color: #303134;
+}
+body.dark .kura_tm_mobile_menu .dropdown .dropdown_inner ul li a{
+	color: #fff;
+}
+body.dark .kura_tm_hero{
+	background-color: #303134;
+}
+body.dark .hamburger-inner, 
+body.dark .hamburger-inner:after, 
+body.dark .hamburger-inner:before{
+	background-color: #fff;
+}
+body.dark .hamburger.is-active .hamburger-inner, 
+body.dark .hamburger.is-active .hamburger-inner:after, 
+body.dark .hamburger.is-active .hamburger-inner:before{
+	background-color: #fff;
+}
+body.dark .kura_tm_topbar .list ul li a{
+	color: #fff;
+}
+body.dark .kura_tm_hero .services ul li a{
+	color: #fff;
+}
+body.dark .kura_tm_hero .down a{
+	color: #fff;
+}
+body.dark .kura_tm_portfolio .portfolio_list .overlay{
+	background-color: #494b50;
+}
+body.dark .kura_tm_portfolio .portfolio_list .image .svg{
+	color: #fff;
+}
+body.dark .kura_tm_swiper_progress span{
+	color: #fff;
+}
+body.dark .kura_tm_swiper_progress .my_navigation ul li a{
+	color: #fff;
+}
+body.dark .kura_tm_swiper_progress .pagination_progress .all{
+	background-color: rgba(255,255,255,.2);
+}
+body.dark .kura_tm_swiper_progress .pagination_progress .all span{
+	background-color: rgba(255,255,255,.5);
+}
+body.dark .kura_tm_skills .text p{
+	color: #a7afbd;
+}
+body.dark .kura_tm_timeline .timeline_list ul li .list_inner:nth-child(2) span{
+	color: #fff;
+}
+body.dark .kura_tm_timeline .timeline_list ul li{
+	border-bottom-color: rgba(255,255,255,.1);
+}
+body.dark .kura_tm_pricing{
+	background-color: #303134;
+}
+body.dark .kura_tm_pricing .right ul li .list_inner{
+	background-color: #494b50;
+	box-shadow: 0px 0px 20px rgb(255 255 255 / 5%);
+}
+body.dark .kura_tm_pricing .right ul li span{
+	color: #fff;
+}
+body.dark .kura_tm_news .news_list .overlay{
+	background-color: #494b50;
+}
+body.dark .kura_tm_news .news_list .list_inner .svg{
+	color: #fff;
+}
+body.dark .kura_tm_contact{
+	background-color: #303134;
+}
+body.dark .kura_tm_contact .short ul li .list_inner span{
+	color: #fff;
+}
+body.dark .kura_tm_contact .fields ul li input{
+	border: 1px solid rgba(255,255,255,.1);
+	color: #a7afbd;
+}
+body.dark .kura_tm_contact .fields ul li input:focus{
+	border: 1px solid rgba(255,255,255,.3);
+}
+body.dark .kura_tm_contact .fields .last textarea{
+	border: 1px solid rgba(255,255,255,.1);
+	color: #a7afbd;
+}
+body.dark .kura_tm_contact .fields .last textarea:focus{
+	border: 1px solid rgba(255,255,255,.3);
+}
+body.dark .kura_tm_modalbox .box_inner{
+	background-color: #494b50;
+}
+body.dark .kura_tm_modalbox .description_wrap{
+  scrollbar-width: thin;
+  scrollbar-color: #999 #494b50;
+}
+body.dark .kura_tm_modalbox .description_wrap:-webkit-scrollbar-track{
+  background: #494b50;
+}
+body.dark .kura_tm_modalbox .description_wrap::-webkit-scrollbar-thumb{
+  background-color: #999;
+  border-radius: 6px;
+  border: 3px solid #494b50;
+}
+
+
+body.dark #preloader:before,
+body.dark #preloader:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+body.dark #preloader:after{
+    left: auto;
+    right: 0;
+}
+body.dark #preloader .loader_line{
+    margin: auto;
+    width: 1px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+body.dark .loader_line:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 0%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #777;
+    -webkit-animation: lineheight 1000ms ease-in-out 0s forwards;
+    -o-animation: lineheight 1000ms ease-in-out 0s forwards;
+    animation: lineheight 1000ms ease-in-out 0s forwards;
+}
+body.dark .loader_line:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #ddd;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-animation: lineround 1200ms linear 0s infinite;
+    -o-animation: lineround 1200ms linear 0s infinite;
+    animation: lineround 1200ms linear 0s infinite;
+    animation-delay: 2000ms;
+}
+
+
+
+
