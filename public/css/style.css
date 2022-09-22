@@ -140,12 +140,18 @@ body::-webkit-scrollbar-thumb {
 h1,
 h2,
 h3,
-h4,
-h5,
 h6 {
     font-weight: 500;
     line-height: 1.2;
     font-family: "Poppins-8";
+    color: #000;
+}
+
+h5,
+h4 {
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Poppins-5";
     color: #000;
 }
 
