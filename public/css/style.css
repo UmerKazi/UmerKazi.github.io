@@ -145,7 +145,7 @@ h5,
 h6 {
     font-weight: 500;
     line-height: 1.2;
-    font-family: "Poppins-5";
+    font-family: "Poppins-8";
     color: #000;
 }
 
@@ -928,8 +928,8 @@ body.opened .kura_tm_hero .down {
     display: inline-block;
     margin-bottom: 10px;
     color: #ff4522;
-    font-family: "Poppins-8";
-    font-weight: 800;
+    font-family: "Poppins-6";
+    font-weight: 600;
 }
 .kura_tm_main_title h3 {
     font-weight: 800;
