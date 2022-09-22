@@ -1281,6 +1281,7 @@ body.opened .kura_tm_hero .down {
     clear: both;
     float: left;
     padding: 140px 0px 113px 0px;
+    font-family: "Mulish";
 }
 .kura_tm_timeline .timeline_list {
     width: 100%;
