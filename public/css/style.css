@@ -1630,6 +1630,7 @@ body.opened .kura_tm_hero .down {
     display: flex;
     margin-top: 40px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 .kura_tm_contact .left {
     width: 50%;
@@ -1639,6 +1640,8 @@ body.opened .kura_tm_hero .down {
     width: 100%;
     float: left;
     margin-bottom: 42px;
+    font-family: "Montserrat";
+    font-size: 18px;
 }
 .kura_tm_contact .short {
     width: 100%;
