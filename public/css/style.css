@@ -50,7 +50,12 @@
 
 @font-face {
     font-family: Poppins-6;
-    src: url(../fonts/Poppins-Bold.ttf);
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-8;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
 }
 
 html {
@@ -566,6 +571,7 @@ body.opened .kura_tm_hero .content .left {
     line-height: 1.4;
     text-transform: uppercase;
     margin-bottom: 25px;
+    font-family: "Poppins-8";
 }
 .kura_tm_hero .services {
     width: 100%;
