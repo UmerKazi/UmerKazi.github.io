@@ -3,7 +3,7 @@ import React from "react";
 const Timeline = () => {
   return (
     <div className="kura_tm_section" id="timeline">
-      <div className="kura_tm_timeline" style={{lineHeight: '28px', letterSpacing: '0.2px', wordWrap: "break-word"}}>
+      <div className="kura_tm_timeline">
         <div className="container">
           <div className="kura_tm_main_title">
             <span>Timeline</span>

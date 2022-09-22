@@ -1282,6 +1282,9 @@ body.opened .kura_tm_hero .down {
     float: left;
     padding: 140px 0px 113px 0px;
     font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    overflow-wrap: break-word;
 }
 .kura_tm_timeline .timeline_list {
     width: 100%;
