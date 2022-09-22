@@ -18,7 +18,6 @@ const IMAGES = [
     sub: "An IOS Task Management Solution.",
     index: 2,
   },
-
   {
     src: "https://github.com/UmerKazi/NFT-Peeper",
     thumbnail: "/img/portfolio/nftpeeper.jpg",
@@ -49,6 +48,7 @@ const IMAGES = [
   },
 ];
 
+
 const Portfolio = () => {
   const [showLight, setShowLight] = useState(null);
 
@@ -61,6 +61,7 @@ const Portfolio = () => {
   const hideLightBox = () => {
     setShowLight(null);
   };
+
   return (
     <Fragment>
       <div className="kura_tm_section" id="portfolio">
@@ -76,7 +77,8 @@ const Portfolio = () => {
             >
               <div className="swiper-container">
                 <div className="swiper-wrapper">
-                  <Swiper {...portfolioSlider}>
+                  {IMAGES.length > 0 && (
+                    <Swiper {...portfolioSlider}>
                     {IMAGES.map((image) => (
                       <SwiperSlide key={image.index} className="swiper-slide">
                         <div className="list_inner">
@@ -107,6 +109,7 @@ const Portfolio = () => {
                       </SwiperSlide>
                     ))}
                   </Swiper>
+                  )}
                 </div>
                 <div className="kura_tm_swiper_progress fill">
                   <div className="my_pagination_in"></div>
