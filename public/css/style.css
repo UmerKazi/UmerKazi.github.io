@@ -1391,7 +1391,7 @@ body.opened .kura_tm_hero .down {
     border-right: none;
     border-bottom: none;
     color: #5c5d62;
-    display: block;
+    display: inline-block;
     border-color: #5c5d62;
 }
 

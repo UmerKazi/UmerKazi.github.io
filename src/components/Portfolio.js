@@ -74,7 +74,7 @@ const Portfolio = () => {
                     {IMAGES.map((image, index) => (
                       <SwiperSlide key={index} className="swiper-slide">
                         <div className="list_inner">
-                          <div className="image" style={{ border: '3px solid lightgrey', borderRadius: '15px' }}>
+                          <div className="image" >
                             <img src="/img/portfolio/410-460.jpg" alt="" />
                             <div
                               className="main"
