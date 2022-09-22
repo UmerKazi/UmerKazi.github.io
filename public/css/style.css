@@ -1360,7 +1360,10 @@ body.opened .kura_tm_hero .down {
     padding-right: 40px;
     font-family: 'Montserrat', sans-serif;
 }
-.kura_tm_timeline .timeline_list ul li .list_inner strong {
+.kura_tm_timeline .timeline_list ul li .list_inner_desc {
+    font-family: 'Montserrat', sans-serif;
+}
+.kura_tm_timeline .timeline_list ul li .list_inner_desc strong {
     font-family: 'Montserrat-b';
 }
 .kura_tm_timeline .timeline_list ul li .list_inner:last-child {

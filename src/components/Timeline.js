@@ -42,7 +42,7 @@ const Timeline = () => {
                 </div>
                 <br/>
                 <br/>
-                <div className="list_inner">
+                <div className="list_inner_desc">
                   <p style={{ fontSize: '18px' }}>• Member of the front-end web development team, responsible for optimizing front-end infrastructure, addressing bugs, and researching/planning improvements and new features.
                     <br/>• Made over <strong style={{ color: '#ff4522' }}>100</strong> contributions to the <strong style={{ color: '#ff4522' }}>Gatsby React</strong> web application, working with tools such as <strong style={{ color: '#ff4522' }}>Drupal, Wordpress, AWS Amplify, Pantheon, </strong>and <strong style={{ color: '#ff4522' }}>StorybookJS</strong> to improve and build upon the product.
                     <br/>• Researched, planned, and managed the implemention of <strong style={{ color: '#ff4522' }}>UI/UX</strong> improvements to the web application, contributing to the ongoing experience and design overhaul of the brand</p>
@@ -64,7 +64,7 @@ const Timeline = () => {
                 </div>
                 <br/>
                 <br/>
-                <div className="list_inner">
+                <div className="list_inner_desc">
                   <p style={{ fontSize: '18px' }}>• Team lead for the Mental Health Score project, responsible for the development, management, branding, and marketing of this project.
                     <br/>• Completely overhauled the service, taking it from its initial inception to a full-stack web application built using <strong style={{ color: '#ff4522' }}>TypeScript, React, and Firebase </strong>. The front-end was styled and structured with <strong style={{ color: '#ff4522' }}>Material-UI</strong> and the web application was hosted on <strong style={{ color: '#ff4522' }}>Vercel</strong>.
                     <br/>• Re-branded Mental Health Score in order to target a new market of customers and successfully launched a strategic marketing campaign, resulting in a <strong style={{ color: '#ff4522' }}>300% increase</strong> in the user base.</p>
@@ -86,7 +86,7 @@ const Timeline = () => {
                 </div>
                 <br/>
                 <br/>
-                <div className="list_inner">
+                <div className="list_inner_desc">
                   <p style={{ fontSize: '18px' }}>• Independently undertook the system maintenance and security implementations of various multi-million dollar company databases and user accounts via the CyberArk security suite.
                     <br/>• Created <strong style={{ color: '#ff4522' }}>15 PowerShell scripts</strong> in order to automate software functionality and the deployment of security tools for organizations.
                     <br/>• Collaborated with team members to create over <strong style={{ color: '#ff4522' }}>100 pages</strong> of personalized software documentation for company clientele.</p>
