@@ -26,6 +26,7 @@
 
 @import "https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html {
     overflow-x: hidden;
@@ -1281,7 +1282,7 @@ body.opened .kura_tm_hero .down {
     clear: both;
     float: left;
     padding: 140px 0px 113px 0px;
-    font-family: "Mulish";
+    font-family: 'Montserrat', sans-serif;
 }
 .kura_tm_timeline .timeline_list {
     width: 100%;
@@ -1289,12 +1290,12 @@ body.opened .kura_tm_hero .down {
     clear: both;
     float: left;
     padding-top: 54px;
-    font-family: "Mulish";
+    font-family: 'Montserrat', sans-serif;
 }
 .kura_tm_timeline .timeline_list ul {
     margin: 0px;
     list-style-type: none;
-    font-family: "Mulish";
+    font-family: 'Montserrat', sans-serif;
 }
 .kura_tm_timeline .timeline_list ul li {
     margin: 0px;
@@ -1302,30 +1303,30 @@ body.opened .kura_tm_hero .down {
     float: left;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 27px 0px 30px 0px;
-    font-family: "Mulish";
+    font-family: 'Montserrat', sans-serif;
 }
 .kura_tm_timeline .timeline_list ul li:last-child {
     border-bottom: none;
-    font-family: "Mulish";
+    font-family: 'Montserrat', sans-serif;
 }
 .kura_tm_timeline .timeline_list ul li .list_inner {
     width: 33.3333%;
     float: left;
     padding-right: 40px;
-    font-family: "Mulish";
+    font-family: 'Montserrat', sans-serif;
 }
 .kura_tm_timeline .timeline_list ul li .list_inner:last-child {
     padding-right: 0px;
-    font-family: "Mulish";
+    font-family: 'Montserrat', sans-serif;
 }
 .kura_tm_timeline .timeline_list ul li .list_inner span {
     display: inline-block;
     font-size: 18px;
-    font-family: "Mulish";
+    font-family: 'Montserrat', sans-serif;
 }
 .kura_tm_timeline .timeline_list ul li .list_inner:nth-child(2) span {
     color: #000;
-    font-family: "Mulish";
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*---------------------------------------------------*/
