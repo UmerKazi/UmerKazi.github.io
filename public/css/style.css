@@ -50,7 +50,7 @@
 
 @font-face {
     font-family: Poppins-6;
-    src: url(../fonts/Poppins-SemiBold.ttf);
+    src: url(../fonts/Poppins-Bold.ttf);
 }
 
 html {
@@ -138,9 +138,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.2;
-    font-family: "Poppins-6";
+    font-family: "Poppins-5";
     color: #000;
 }
 
@@ -558,7 +558,7 @@ body.opened .kura_tm_hero .content .left {
     margin-bottom: 16px;
     color: #ff4522;
     font-family: "Poppins-6";
-    font-weight: 600;
+    font-weight: 500;
 }
 .kura_tm_hero .job {
     font-size: 45px;
@@ -923,7 +923,7 @@ body.opened .kura_tm_hero .down {
     margin-bottom: 10px;
     color: #ff4522;
     font-family: "Poppins-6";
-    font-weight: 600;
+    font-weight: 500;
 }
 .kura_tm_main_title h3 {
     font-weight: 800;
