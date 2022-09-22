@@ -34,6 +34,11 @@
 }
 
 @font-face {
+    font-family: Montserrat-b;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
     font-family: Mulish;
     src: url(../fonts/Mulish-Regular.ttf);
 }
@@ -1354,6 +1359,9 @@ body.opened .kura_tm_hero .down {
     float: left;
     padding-right: 40px;
     font-family: 'Montserrat', sans-serif;
+}
+.kura_tm_timeline .timeline_list ul li .list_inner strong {
+    font-family: 'Montserrat-b';
 }
 .kura_tm_timeline .timeline_list ul li .list_inner:last-child {
     padding-right: 0px;
