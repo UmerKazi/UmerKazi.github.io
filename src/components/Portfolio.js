@@ -9,12 +9,14 @@ const IMAGES = [
     thumbnail: "/img/portfolio/is.jpg",
     title: "InvestorSpace",
     sub: "The future for investor meetings!",
+    index: 1,
   },
   {
     src: "https://github.com/UmerKazi/Taskit",
     thumbnail: "/img/portfolio/taskit.jpg",
     title: "Taskit",
     sub: "An IOS Task Management Solution.",
+    index: 2,
   },
 
   {
@@ -22,24 +24,28 @@ const IMAGES = [
     thumbnail: "/img/portfolio/nftpeeper.jpg",
     title: "NFT Peeper",
     sub: "An Interactive Way To 'Peep' Into ETH Wallets",
+    index: 3,
   },
   {
     src: "https://github.com/UmerKazi/SplitWash",
     thumbnail: "/img/portfolio/sw.jpg",
     title: "SplitWash",
     sub: "A Simple Car Wash Subscription Management Tool",
+    index: 4,
   },
   {
     src: "https://github.com/UmerKazi/ChatMonkey",
     thumbnail: "/img/portfolio/cm.jpg",
     title: "Chat Monkey",
     sub: "A Global Chatroom Built With Web Sockets",
+    index: 5,
   },
   {
     src: "https://github.com/UmerKazi/CLRS.io",
     thumbnail: "/img/portfolio/clrs.jpg",
     title: "CLRS.io",
     sub: "An Innovative Colour Palette Generation Tool",
+    index: 6,
   },
 ];
 
@@ -71,8 +77,8 @@ const Portfolio = () => {
               <div className="swiper-container">
                 <div className="swiper-wrapper">
                   <Swiper {...portfolioSlider}>
-                    {IMAGES.map((image, index) => (
-                      <SwiperSlide key={index} className="swiper-slide">
+                    {IMAGES.map((image) => (
+                      <SwiperSlide key={image.index} className="swiper-slide">
                         <div className="list_inner">
                           <div className="image" >
                             <img src="/img/portfolio/410-460.jpg" alt="" />
