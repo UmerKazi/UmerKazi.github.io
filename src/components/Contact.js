@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="contact_inner">
             <div className="wow fadeInUp left" data-wow-duration=".7s">
               <div className="text">
-                <p style={{ fontSize: '18px' }}>
+                <p style={{ fontSize: '18px', fontFamily: "'Montserrat', sans-serif" }}>
                   Please feel free to send me an email, connect with me on LinkedIn, or give me a call!
                 </p>
               </div>
