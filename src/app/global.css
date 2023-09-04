@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Recoleta Bold";
+    src: url("/fonts/Recoleta-Bold.ttf");
+}
+
+html,
+body,
+#__next {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
