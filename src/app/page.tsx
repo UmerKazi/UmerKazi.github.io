@@ -108,7 +108,7 @@ export default function Home() {
   return (
     <Box id="page-container" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', backgroundColor: background, minHeight: '100vh' }}>
         <Box id="cards-container" maxWidth="lg" sx={{ display: 'flex', flexDirection: {xs: 'column', md: 'row'}, alignItems: 'flex-start', justifyContent: 'space-between', width: '100%', backgroundColor: primary, padding: '30px', borderRadius: '24px', margin: '20px' }}>
-          <Box id="left" sx={{width: {xs: '100%', md: '29%'}, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <Box id="left" sx={{width: {xs: '100%', md: '29%'}, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <Box id="pfp-card" sx={{ backgroundColor: secondary, borderRadius: '24px', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '30px' }}>
               <Box id="pfp" component="img" src="https://avatars.githubusercontent.com/u/7350580?v=4" sx={{ backgroundColor: 'grey', borderRadius: '14px', height: '100%', width: '100%'}}></Box>
             </Box>
@@ -142,28 +142,28 @@ export default function Home() {
               </Tooltip>
             </Box>
             <br/>
-            <Box id="lmdm-card" sx={{ backgroundColor: secondary, borderRadius: '24px', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '10px', alignSelf: 'flex-start' }}>
+            <Box id="lmdm-card" sx={{ backgroundColor: secondary, borderRadius: '14px', display: {xs: 'none', md: 'flex'}, flexDirection: 'column', alignItems: 'center', padding: '10px', alignSelf: 'flex-start' }}>
               <MaterialUISwitch sx={{ m: 1 }} onChange={() => setLightMode(!lightMode)} value={lightMode}/>
             </Box>
           </Box>
           <Box id="right" sx={{ borderRadius: '24px', width: {xs: '100%', md: '69%'}, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <Box id="nav" sx={{ width: '100%', backgroundColor: secondary, borderRadius: '24px', padding: '20px' , display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around'}}>
-              <Typography onClick={() => setActivePage("about")} sx={{ color: activePage == "about" ? highlight : tertiary, fontFamily: 'Recoleta Bold', fontSize: '24px', "&:hover": { color: highlight }, cursor: 'pointer' }}>
+              <Typography onClick={() => setActivePage("about")} sx={{ color: activePage == "about" ? highlight : tertiary, fontFamily: 'Recoleta Bold', fontSize: {xs: '16px', md: '24px'}, "&:hover": { color: highlight }, cursor: 'pointer' }}>
                 About
               </Typography>
-              <Typography onClick={() => setActivePage("resume")} sx={{ color: activePage == "resume" ? highlight : tertiary, fontFamily: 'Recoleta Bold', fontSize: '24px', "&:hover": { color: highlight }, cursor: 'pointer' }}>
+              <Typography onClick={() => setActivePage("resume")} sx={{ color: activePage == "resume" ? highlight : tertiary, fontFamily: 'Recoleta Bold', fontSize: {xs: '16px', md: '24px'}, "&:hover": { color: highlight }, cursor: 'pointer' }}>
                 Resume
               </Typography>
-              <Typography onClick={() => setActivePage("portfolio")} sx={{ color: activePage == "portfolio" ? highlight : tertiary, fontFamily: 'Recoleta Bold', fontSize: '24px', "&:hover": { color: highlight }, cursor: 'pointer' }}>
+              <Typography onClick={() => setActivePage("portfolio")} sx={{ color: activePage == "portfolio" ? highlight : tertiary, fontFamily: 'Recoleta Bold', fontSize: {xs: '16px', md: '24px'}, "&:hover": { color: highlight }, cursor: 'pointer' }}>
                 Portfolio
               </Typography>
-              <Typography onClick={() => setActivePage("contact")} sx={{ color: activePage == "contact" ? highlight : tertiary, fontFamily: 'Recoleta Bold', fontSize: '24px', "&:hover": { color: highlight }, cursor: 'pointer' }}>
+              <Typography onClick={() => setActivePage("contact")} sx={{ color: activePage == "contact" ? highlight : tertiary, fontFamily: 'Recoleta Bold', fontSize: {xs: '16px', md: '24px'}, "&:hover": { color: highlight }, cursor: 'pointer' }}>
                 Contact
               </Typography>
             </Box>
             <br/>
             {activePage == "about" && (
-              <Box id="about" sx={{ width: '100%', backgroundColor: secondary, borderRadius: '24px', padding: '40px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+              <Box id="about" sx={{ width: '100%', backgroundColor: secondary, borderRadius: '24px', padding: {xs: '30px', md: '40px'}, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               <Typography sx={{ fontFamily: 'Recoleta Bold', fontSize: '30px', color: tertiary, alignSelf: 'flex-start', marginBottom: '20px' }}>
                 Who Am I?
               </Typography>
@@ -181,7 +181,7 @@ export default function Home() {
               </Typography>
               <Divider sx={{ width: '60px', alignSelf: 'flex-start', border: `4px solid ${highlight}`, borderRadius: '100px', marginBottom: '20px' }}/>
               <Box id="atm-container" sx={{ marginTop: '20px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between'}}>
-                <Box id="atm" sx={{ backgroundColor: primary, borderRadius: '24px', display: 'flex', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', width: 'calc(50% - 5px)', padding: '20px'  }}>
+                <Box id="atm" sx={{ backgroundColor: primary, borderRadius: '24px', display: 'flex', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', width: {xs: '100%', md: 'calc(50% - 5px)'}, padding: '20px', marginTop: '10px'  }}>
                   <Box id="left" sx={{ marginRight: '20px'}}>
                     <SchoolIcon sx={{ color: highlight, fontSize: '48px' }} />
                   </Box>
@@ -194,7 +194,7 @@ export default function Home() {
                     </Typography>
                   </Box>
                 </Box>
-                <Box id="atm" sx={{ backgroundColor: primary, borderRadius: '24px', display: 'flex', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', width: 'calc(50% - 5px)', padding: '20px'  }}>
+                <Box id="atm" sx={{ backgroundColor: primary, borderRadius: '24px', display: 'flex', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', width: {xs: '100%', md: 'calc(50% - 5px)'}, padding: '20px', marginTop: '10px'  }}>
                   <Box id="left" sx={{ marginRight: '20px'}}>
                     <BusinessIcon sx={{ color: highlight, fontSize: '48px' }} />
                   </Box>
@@ -207,7 +207,7 @@ export default function Home() {
                     </Typography>
                   </Box>
                 </Box>
-                <Box id="atm" sx={{ backgroundColor: primary, borderRadius: '24px', display: 'flex', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', width: 'calc(50% - 5px)', padding: '20px', marginTop: '10px'  }}>
+                <Box id="atm" sx={{ backgroundColor: primary, borderRadius: '24px', display: 'flex', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', width: {xs: '100%', md: 'calc(50% - 5px)'}, padding: '20px', marginTop: '10px'  }}>
                   <Box id="left" sx={{ marginRight: '20px'}}>
                     <SportsScoreIcon sx={{ color: highlight, fontSize: '48px' }} />
                   </Box>
@@ -220,7 +220,7 @@ export default function Home() {
                     </Typography>
                   </Box>
                 </Box>
-                <Box id="atm" sx={{ backgroundColor: primary, borderRadius: '24px', display: 'flex', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', width: 'calc(50% - 5px)', padding: '20px', marginTop: '10px'  }}>
+                <Box id="atm" sx={{ backgroundColor: primary, borderRadius: '24px', display: 'flex', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', width: {xs: '100%', md: 'calc(50% - 5px)'}, padding: '20px', marginTop: '10px'  }}>
                   <Box id="left" sx={{ marginRight: '20px'}}>
                     <CoffeeIcon sx={{ color: highlight, fontSize: '48px' }} />
                   </Box>
