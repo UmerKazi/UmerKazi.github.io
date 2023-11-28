@@ -190,7 +190,7 @@ export default function Home() {
                       Studying Math @ UWaterloo
                     </Typography>
                     <Typography sx={{ color: tertiary }}>
-                      Currently in my 3A Term, majoring in Mathematics and minoring in Computer Science.
+                      Currently in my 3B Term, majoring in Mathematics and minoring in Computer Science.
                     </Typography>
                   </Box>
                 </Box>
