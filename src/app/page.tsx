@@ -726,22 +726,29 @@ export default function Home() {
                 </Typography>
                 <ul style={{ fontFamily: "inter" }}>
                   <li style={{ color: tertiary, fontSize: "18px" }}>
-                    Developed and delivered a custom full-stack document
-                    delivery tool for the sales and marketing team. Increased
-                    document visability and reach, resulting in a <b>58%</b>{" "}
-                    reduction in time spent on document distribution. Created
-                    the tool using <b>NextJS</b>, <b>Firebase</b>,{" "}
-                    <b>Typescript</b>, and <b>MUI</b>.
+                    Spearheaded the development of a comprehensive full-stack
+                    solution to enhance document delivery for the sales and
+                    marketing team, using <b>Firebase</b>, <b>NextJS</b>,{" "}
+                    <b>GCP</b>,<b>TypeScript</b>. Designed to streamline sales
+                    and marketing workflows, the tool offers features like
+                    document upload/tagging, internal/external sharing via
+                    email, and one-time link creation for file sharing,
+                    bolstering user engagement with over <b>200</b> active
+                    users.
                   </li>
                   <li style={{ color: tertiary, fontSize: "18px" }}>
-                    Lead the development and delivery of a custom mobile field
-                    services application for <b>4</b> organizations in the
-                    construction industry. The application was built using{" "}
-                    <b>CapacitorJS</b>, <b>NextJS</b>, <b>Typescript</b>,{" "}
-                    <b>SQL</b> and <b>NetSuite&apos;s REST API</b>. The
-                    application wrapped native NetSuite functionality and
-                    provided a custom interface for offline access for field
-                    service workers.
+                    Developed a production field services application for the
+                    construction industry, leveraging
+                    <b>NextJS</b>, <b>CapacitorJS</b>, <b>Ionic</b>,{" "}
+                    <b>Firebase</b>, <b>Node/Express</b>, and the
+                    <b>NetSuite REST API</b>. The application offers an
+                    intuitive mobile interface to enhance operational
+                    efficiency. It features offline functionality, version
+                    management, and anti-cheat measures, all while seamlessly
+                    integrating with NetSuite via a custom <b>TypeScript</b>{" "}
+                    wrapper for data interaction on the client side, a custom{" "}
+                    <b>RESTlet</b> for data retrieval on the server side, and a{" "}
+                    <b>OAuth 2.0</b> integration for user authentication.
                   </li>
                 </ul>
               </Box>
@@ -825,7 +832,7 @@ export default function Home() {
                 >
                   <Box
                     component="img"
-                    src="https://yt3.googleusercontent.com/n03PddoJXhZbJXCalvhKlYnZCYcQ9aWCox5zrG8vzwviNoPo7Nsj2dimRms6uYG9Ni18qgT9=s900-c-k-c0x00ffffff-no-rj"
+                    src="https://www.ept.ca/wp-content/uploads/2021/08/Siemens-logo.jpeg"
                     sx={{
                       backgroundColor: "grey",
                       height: "60px",

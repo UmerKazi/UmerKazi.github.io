@@ -11,11 +11,9 @@ body,
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: black;
 }
 * { 
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
      box-sizing: border-box; 
-     background-color: black;
 }
