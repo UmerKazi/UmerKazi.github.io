@@ -672,6 +672,72 @@ export default function Home() {
                   marginBottom: "20px",
                 }}
               />
+              <Box
+                id="resume_point"
+                sx={{
+                  marginBottom: "40px",
+                  display: "flex",
+                  alignItems: "flex-start",
+                  justifyContent: "flex-start",
+                  flexDirection: "column",
+                  width: "100%",
+                }}
+              >
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "flex-start",
+                    justifyContent: "flex-start",
+                    marginBottom: "10px",
+                    width: "100%",
+                  }}
+                >
+                  <Box
+                    component="img"
+                    src="https://pbs.twimg.com/profile_images/1753063483350904832/2j6m9R8c_400x400.png"
+                    sx={{
+                      backgroundColor: "grey",
+                      height: "60px",
+                      width: "60px",
+                      borderRadius: "14px",
+                      marginRight: "10px",
+                    }}
+                  />
+                  <Box sx={{ width: "100%" }}>
+                    <Typography
+                      sx={{
+                        color: tertiary,
+                        fontSize: "20px",
+                        fontWeight: "600",
+                        alignSelf: "flex-start",
+                      }}
+                    >
+                      Software Engineer
+                    </Typography>
+                    <Typography
+                      sx={{
+                        color: tertiary,
+                        fontSize: "18px",
+                        alignSelf: "flex-start",
+                      }}
+                    >
+                      Wayfair
+                    </Typography>
+                  </Box>
+                </Box>
+                <Typography
+                  sx={{
+                    color: highlight,
+                    fontSize: "18px",
+                    alignSelf: "flex-start",
+                    fontWeight: "600",
+                    width: "100%",
+                  }}
+                >
+                  May 2024 - Aug 2024
+                </Typography>
+              </Box>
               <Box id="resume_point" sx={{ marginBottom: "20px" }}>
                 <Box
                   sx={{
