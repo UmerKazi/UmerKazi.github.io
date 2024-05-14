@@ -149,7 +149,7 @@
 .experience {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -238,4 +238,11 @@
 
 .contactContainer {
   width: 100%;
+}
+
+.footer {
+  font-family: var(--font);
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
