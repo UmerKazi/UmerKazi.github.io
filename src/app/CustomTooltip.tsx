@@ -17,6 +17,7 @@ export default function CustomTooltip({ title, children }: CustomTooltipProps) {
             backgroundColor: "#161716",
             fontFamily: "var(--font)",
             color: "white",
+            cursor: "pointer",
             padding: "10px",
             textTransform: "lowercase",
             "&:hover": {

@@ -10,8 +10,10 @@ import {
 } from "@tabler/icons-react";
 import CustomTooltip from "./CustomTooltip";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
   return (
     <Box className={styles.main}>
       <Box className={styles.card} maxWidth="md">
@@ -43,17 +45,32 @@ export default function Home() {
             }}
           >
             <CustomTooltip title="Resume">
-              <Box className={styles.button}>
-                <IconFileText size={20} />
-              </Box>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Box className={styles.button}>
+                  <IconFileText size={20} />
+                </Box>
+              </a>
             </CustomTooltip>
             <CustomTooltip title="LinkedIn">
-              <Box className={styles.button}>
+              <Box
+                className={styles.button}
+                onClick={() => {
+                  window.open(
+                    "https://www.linkedin.com/in/umerkazi/",
+                    "_blank"
+                  );
+                }}
+              >
                 <IconBrandLinkedin size={20} />
               </Box>
             </CustomTooltip>
             <CustomTooltip title="GitHub">
-              <Box className={styles.button}>
+              <Box
+                className={styles.button}
+                onClick={() => {
+                  window.open("https://github.com/UmerKazi", "_blank");
+                }}
+              >
                 <IconBrandGithub size={20} />
               </Box>
             </CustomTooltip>
@@ -91,12 +108,25 @@ export default function Home() {
               </Box>
             </CustomTooltip>
             <CustomTooltip title="LinkedIn">
-              <Box className={styles.button2}>
+              <Box
+                className={styles.button2}
+                onClick={() => {
+                  window.open(
+                    "https://www.linkedin.com/in/umerkazi/",
+                    "_blank"
+                  );
+                }}
+              >
                 <IconBrandLinkedin size={20} />
               </Box>
             </CustomTooltip>
             <CustomTooltip title="GitHub">
-              <Box className={styles.button2}>
+              <Box
+                className={styles.button2}
+                onClick={() => {
+                  window.open("https://github.com/UmerKazi", "_blank");
+                }}
+              >
                 <IconBrandGithub size={20} />
               </Box>
             </CustomTooltip>
@@ -153,13 +183,28 @@ export default function Home() {
             chase to make the world around me a better place! I&apos;m driven by
             projects that elevate the lives of mankind in an accessible and
             impactful manner. Currently, I&apos;m interning at{" "}
-            <span className={styles.link}>Wayfair</span> as a Software Engineer
-            on the platform team. I&apos;m also a fourth-year student at the{" "}
-            <span className={styles.link}>University of Waterloo</span>,
-            pursuing a Bachelor&apos;s in Mathematics, with a Minor in Computer
-            Science. Outside of school, you&apos;ll find me in my garage,
-            tackling my next automotive project. When I&apos;ve run out of
-            steam, I am out and about, capturing the beauty of the world. But
+            <span
+              className={styles.link}
+              onClick={() => {
+                window.open("https://www.wayfair.ca/", "_blank");
+              }}
+            >
+              Wayfair
+            </span>{" "}
+            as a Software Engineer on the platform team. I&apos;m also a
+            fourth-year student at the{" "}
+            <span
+              className={styles.link}
+              onClick={() => {
+                window.open("https://uwaterloo.ca/", "_blank");
+              }}
+            >
+              University of Waterloo
+            </span>
+            , pursuing a Bachelor&apos;s in Mathematics, with a Minor in
+            Computer Science. Outside of school, you&apos;ll find me in my
+            garage, tackling my next automotive project. When I&apos;ve run out
+            of steam, I am out and about, capturing the beauty of the world. But
             most importantly, I focus on raising awareness and making a tangible
             impact on the issues affecting our global community
           </Typography>
@@ -193,7 +238,14 @@ export default function Home() {
                   <Typography className={styles.role}>
                     Software Engineer
                   </Typography>
-                  <Typography className={styles.company}>Wayfair</Typography>
+                  <Typography
+                    className={styles.company}
+                    onClick={() => {
+                      window.open("https://www.wayfair.ca/", "_blank");
+                    }}
+                  >
+                    Wayfair
+                  </Typography>
                 </Box>
               </Box>
               <Box className={styles.right}>
@@ -211,7 +263,12 @@ export default function Home() {
                   <Typography className={styles.role}>
                     Software Developer
                   </Typography>
-                  <Typography className={styles.company}>
+                  <Typography
+                    className={styles.company}
+                    onClick={() => {
+                      window.open("https://www.appficiency.com/", "_blank");
+                    }}
+                  >
                     Appficiency
                   </Typography>
                 </Box>
@@ -231,7 +288,14 @@ export default function Home() {
                   <Typography className={styles.role}>
                     Software Developer
                   </Typography>
-                  <Typography className={styles.company}>Vyana</Typography>
+                  <Typography
+                    className={styles.company}
+                    onClick={() => {
+                      window.open("https://www.vyana.io/", "_blank");
+                    }}
+                  >
+                    Vyana
+                  </Typography>
                 </Box>
               </Box>
               <Box className={styles.right}>
@@ -249,7 +313,17 @@ export default function Home() {
                   <Typography className={styles.role}>
                     Software Developer
                   </Typography>
-                  <Typography className={styles.company}>Siemens</Typography>
+                  <Typography
+                    className={styles.company}
+                    onClick={() => {
+                      window.open(
+                        "https://www.siemens.com/global/en.html",
+                        "_blank"
+                      );
+                    }}
+                  >
+                    Siemens
+                  </Typography>
                 </Box>
               </Box>
               <Box className={styles.right}>
@@ -267,7 +341,12 @@ export default function Home() {
                   <Typography className={styles.role}>
                     Junior Web Developer
                   </Typography>
-                  <Typography className={styles.company}>
+                  <Typography
+                    className={styles.company}
+                    onClick={() => {
+                      window.open("https://bitbuy.ca/", "_blank");
+                    }}
+                  >
                     Bitbuy (WonderFi)
                   </Typography>
                 </Box>
@@ -287,7 +366,15 @@ export default function Home() {
                   <Typography className={styles.role}>
                     Software Developer
                   </Typography>
-                  <Typography className={styles.company}>
+                  <Typography
+                    className={styles.company}
+                    onClick={() => {
+                      window.open(
+                        "https://www.linkedin.com/company/year-zero-studios/",
+                        "_blank"
+                      );
+                    }}
+                  >
                     Year Zero Studios
                   </Typography>
                 </Box>
@@ -321,6 +408,9 @@ export default function Home() {
                 className={styles.projectCard}
                 component="img"
                 src="./rg-dark.jpg"
+                onClick={() => {
+                  window.open("https://www.rent-go.ca/", "_blank");
+                }}
               />
             </CustomTooltip>
             <CustomTooltip title="Aegis Mapping">
@@ -328,6 +418,9 @@ export default function Home() {
                 className={styles.projectCard}
                 component="img"
                 src="./am-dark.jpg"
+                onClick={() => {
+                  window.open("https://www.aegismapping.ca/", "_blank");
+                }}
               />
             </CustomTooltip>
             <CustomTooltip title="Typhon">
@@ -335,6 +428,9 @@ export default function Home() {
                 className={styles.projectCard}
                 component="img"
                 src="./typhon-dark.png"
+                onClick={() => {
+                  window.open("https://www.typhon.pro/", "_blank");
+                }}
               />
             </CustomTooltip>
             <CustomTooltip title="Kazi Consulting">
@@ -342,6 +438,20 @@ export default function Home() {
                 className={styles.projectCard}
                 component="img"
                 src="./kc-dark.jpg"
+                onClick={() => {
+                  window.open("https://www.kazi.consulting/", "_blank");
+                }}
+              />
+            </CustomTooltip>
+            <CustomTooltip title="Vaulted Vintage">
+              <Box
+                className={styles.projectCard}
+                component="img"
+                src="./vv-dark.jpg"
+                sx={{ marginTop: { sm: "10px", md: "20px" } }}
+                onClick={() => {
+                  window.open("https://www.vaultedvintage.ca/", "_blank");
+                }}
               />
             </CustomTooltip>
           </Box>
@@ -371,15 +481,30 @@ export default function Home() {
             <Typography className={styles.body}>
               Thanks for stopping by! If you&apos;d like to get in touch, feel
               free to send me an email at{" "}
-              <span className={styles.link}>u3kazi@uwaterloo.ca</span> or
-              connect with me on <span className={styles.link}>LinkedIn</span>.
-              I&apos;m always open to new opportunities and collaborations, so
+              <a href="mailto:u3kazi@uwaterloo.ca">
+                <span className={styles.link}>u3kazi@uwaterloo.ca</span>
+              </a>{" "}
+              or connect with me on{" "}
+              <span
+                className={styles.link}
+                onClick={() => {
+                  window.open(
+                    "https://www.linkedin.com/in/umerkazi/",
+                    "_blank"
+                  );
+                }}
+              >
+                LinkedIn
+              </span>
+              . I&apos;m always open to new opportunities and collaborations, so
               please don&apos;t hesitate to reach out!
             </Typography>
           </Box>
         </motion.div>
       </Box>
-      <Typography className={styles.footer}>made in toronto with ❤️</Typography>
+      <Typography className={styles.footer}>
+        made in waterloo with ❤️
+      </Typography>
     </Box>
   );
 }
