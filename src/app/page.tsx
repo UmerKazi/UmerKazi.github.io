@@ -443,12 +443,21 @@ export default function Home() {
                 }}
               />
             </CustomTooltip>
+            <CustomTooltip title="Qabu">
+              <Box
+                className={styles.projectCard}
+                component="img"
+                src="./qa-dark.jpg"
+                onClick={() => {
+                  window.open("https://www.vaultedvintage.ca/", "_blank");
+                }}
+              />
+            </CustomTooltip>
             <CustomTooltip title="Vaulted Vintage">
               <Box
                 className={styles.projectCard}
                 component="img"
                 src="./vv-dark.jpg"
-                sx={{ marginTop: { sm: "10px", md: "20px" } }}
                 onClick={() => {
                   window.open("https://www.vaultedvintage.ca/", "_blank");
                 }}

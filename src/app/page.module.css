@@ -208,9 +208,10 @@
   margin-top: 10px;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .projectCard {
