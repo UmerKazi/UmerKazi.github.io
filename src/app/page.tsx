@@ -44,36 +44,47 @@ export default function Home() {
               delay: 1.2,
             }}
           >
-            <CustomTooltip title="Resume">
+            <motion.div // Wrap this Box in a motion.div to animate
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                delay: 1.2,
+              }}
+            >
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-                <Box className={styles.button}>
-                  <IconFileText size={20} />
-                </Box>
+                <Typography className={styles.buttonText}>resume</Typography>
               </a>
-            </CustomTooltip>
-            <CustomTooltip title="LinkedIn">
-              <Box
-                className={styles.button}
-                onClick={() => {
-                  window.open(
-                    "https://www.linkedin.com/in/umerkazi/",
-                    "_blank"
-                  );
-                }}
+            </motion.div>
+            <motion.div // Wrap this Box in a motion.div to animate
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                delay: 1.35,
+              }}
+            >
+              <a
+                href="https://www.linkedin.com/in/umerkazi/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <IconBrandLinkedin size={20} />
-              </Box>
-            </CustomTooltip>
-            <CustomTooltip title="GitHub">
-              <Box
-                className={styles.button}
-                onClick={() => {
-                  window.open("https://github.com/UmerKazi", "_blank");
-                }}
+                <Typography className={styles.buttonText}>linkedin</Typography>
+              </a>
+            </motion.div>
+            <motion.div // Wrap this Box in a motion.div to animate
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                delay: 1.45,
+              }}
+            >
+              <a
+                href="https://github.com/UmerKazi"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <IconBrandGithub size={20} />
-              </Box>
-            </CustomTooltip>
+                <Typography className={styles.buttonText}>github</Typography>
+              </a>
+            </motion.div>
           </motion.div>
         </Box>
         <Box
@@ -102,34 +113,47 @@ export default function Home() {
               delay: 1.2,
             }}
           >
-            <CustomTooltip title="Resume">
-              <Box className={styles.button2}>
-                <IconFileText size={20} />
-              </Box>
-            </CustomTooltip>
-            <CustomTooltip title="LinkedIn">
-              <Box
-                className={styles.button2}
-                onClick={() => {
-                  window.open(
-                    "https://www.linkedin.com/in/umerkazi/",
-                    "_blank"
-                  );
-                }}
+            <motion.div // Wrap this Box in a motion.div to animate
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                delay: 1.2,
+              }}
+            >
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Typography className={styles.buttonText}>resume</Typography>
+              </a>
+            </motion.div>
+            <motion.div // Wrap this Box in a motion.div to animate
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                delay: 1.35,
+              }}
+            >
+              <a
+                href="https://www.linkedin.com/in/umerkazi/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <IconBrandLinkedin size={20} />
-              </Box>
-            </CustomTooltip>
-            <CustomTooltip title="GitHub">
-              <Box
-                className={styles.button2}
-                onClick={() => {
-                  window.open("https://github.com/UmerKazi", "_blank");
-                }}
+                <Typography className={styles.buttonText}>linkedin</Typography>
+              </a>
+            </motion.div>
+            <motion.div // Wrap this Box in a motion.div to animate
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                delay: 1.45,
+              }}
+            >
+              <a
+                href="https://github.com/UmerKazi"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <IconBrandGithub size={20} />
-              </Box>
-            </CustomTooltip>
+                <Typography className={styles.buttonText}>github</Typography>
+              </a>
+            </motion.div>
           </motion.div>
         </Box>
         <motion.div

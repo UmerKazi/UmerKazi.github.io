@@ -41,7 +41,7 @@
   align-items: flex-end;
   justify-content: flex-end;
   flex-direction: row;
-  gap: 10px;
+  gap: 15px;
 }
 
 .right2 {
@@ -50,6 +50,7 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 10px;
+  margin-top: 10px;
 }
 
 .button {
@@ -246,4 +247,19 @@
   font-weight: 300;
   font-size: 14px;
   margin-bottom: 20px;
+}
+
+.buttonText {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.buttonText:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
 }
