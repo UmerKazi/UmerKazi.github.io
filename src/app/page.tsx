@@ -215,8 +215,8 @@ export default function Home() {
             >
               Wayfair
             </span>{" "}
-            as a Software Engineer on the platform team. I&apos;m also a
-            fourth-year student at the{" "}
+            as a Software Engineer on the service and cloud lifecycle team.
+            I&apos;m also a fourth-year student at the{" "}
             <span
               className={styles.link}
               onClick={() => {
