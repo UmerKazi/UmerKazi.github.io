@@ -85,12 +85,29 @@ export default function Home() {
                 <Typography className={styles.buttonText}>github</Typography>
               </a>
             </motion.div>
+            <motion.div // Wrap this Box in a motion.div to animate
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                delay: 1.55,
+              }}
+            >
+              <a
+                href="https://consulting.kazi.cc/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Typography className={styles.buttonText}>consulting</Typography>
+              </a>
+            </motion.div>
           </motion.div>
         </Box>
         <Box
           className={styles.row3}
           sx={{
             display: { xs: "flex", sm: "none" },
+            width: "300px",
+            flexWrap: "wrap",
           }}
         >
           <motion.div
@@ -210,12 +227,12 @@ export default function Home() {
             <span
               className={styles.link}
               onClick={() => {
-                window.open("https://www.wayfair.ca/", "_blank");
+                window.open("https://www.appficiency.com/", "_blank");
               }}
             >
-              Wayfair
+              appficiency
             </span>{" "}
-            as a Software Engineer on the service and cloud lifecycle team.
+            as a Software Developer.
             I&apos;m also a fourth-year student at the{" "}
             <span
               className={styles.link}
@@ -251,6 +268,31 @@ export default function Home() {
             some of the companies i&apos;ve worked with
           </Typography>
           <Box className={styles.experienceContainer}>
+            <Box className={styles.experience}>
+              <Box className={styles.left2}>
+                <Box
+                  className={styles.logo}
+                  component="img"
+                  src="https://media.licdn.com/dms/image/C560BAQGuubBwCCa9fQ/company-logo_200_200/0/1630668034521/appficiency_inc_logo?e=2147483647&v=beta&t=98wUqM6NDFebBVtTkeQRMSPeYMMnD-ijyugpRXgO_D0"
+                ></Box>
+                <Box className={styles.textContainer}>
+                  <Typography className={styles.role}>
+                    Software Developer
+                  </Typography>
+                  <Typography
+                    className={styles.company}
+                    onClick={() => {
+                      window.open("https://www.appficiency.com/", "_blank");
+                    }}
+                  >
+                    Appficiency
+                  </Typography>
+                </Box>
+              </Box>
+              <Box className={styles.right}>
+                <Typography className={styles.date}>Fall 2024</Typography>
+              </Box>
+            </Box>
             <Box className={styles.experience}>
               <Box className={styles.left2}>
                 <Box
