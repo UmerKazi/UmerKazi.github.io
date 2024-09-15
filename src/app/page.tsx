@@ -33,7 +33,7 @@ export default function Home() {
           >
             <Typography className={styles.title}>umer kazi</Typography>
             <Typography className={styles.subtitle}>
-              software developer @ appficiency • mathematics @ uwaterloo
+              swe @ appficiency • mathematics @ uwaterloo
             </Typography>
           </motion.div>
           <motion.div // Wrap this Box in a motion.div to animate
