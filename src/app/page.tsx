@@ -93,11 +93,13 @@ export default function Home() {
               }}
             >
               <a
-                href="https://consulting.kazi.cc/"
+                href="https://foliotech.ca/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Typography className={styles.buttonText}>consulting</Typography>
+                <Typography className={styles.buttonText}>
+                  folio inc.
+                </Typography>
               </a>
             </motion.div>
           </motion.div>
@@ -223,17 +225,16 @@ export default function Home() {
             I am a future-focused software developer, forever entangled in the
             chase to make the world around me a better place! I&apos;m driven by
             projects that elevate the lives of mankind in an accessible and
-            impactful manner. Currently, I&apos;m interning at{" "}
+            impactful manner. Currently, I&apos;m scaling my business{" "}
             <span
               className={styles.link}
               onClick={() => {
                 window.open("https://www.appficiency.com/", "_blank");
               }}
             >
-              appficiency
+              folio
             </span>{" "}
-            as a Software Developer.
-            I&apos;m also a fourth-year student at the{" "}
+            to new heights. I&apos;m also wrapping up my degree at the{" "}
             <span
               className={styles.link}
               onClick={() => {
@@ -499,13 +500,13 @@ export default function Home() {
                 }}
               />
             </CustomTooltip>
-            <CustomTooltip title="Kazi Consulting">
+            <CustomTooltip title="Folio">
               <Box
                 className={styles.projectCard}
                 component="img"
-                src="./kc-dark.jpg"
+                src="./folio-dark.jpg"
                 onClick={() => {
-                  window.open("https://www.kazi.consulting/", "_blank");
+                  window.open("https://www.foliotech.ca/", "_blank");
                 }}
               />
             </CustomTooltip>
@@ -514,9 +515,6 @@ export default function Home() {
                 className={styles.projectCard}
                 component="img"
                 src="./qa-dark.jpg"
-                onClick={() => {
-                  window.open("https://www.vaultedvintage.ca/", "_blank");
-                }}
               />
             </CustomTooltip>
             <CustomTooltip title="Vaulted Vintage">
@@ -524,9 +522,6 @@ export default function Home() {
                 className={styles.projectCard}
                 component="img"
                 src="./vv-dark.jpg"
-                onClick={() => {
-                  window.open("https://www.vaultedvintage.ca/", "_blank");
-                }}
               />
             </CustomTooltip>
           </Box>
