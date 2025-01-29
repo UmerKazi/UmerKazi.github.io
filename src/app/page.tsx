@@ -33,7 +33,7 @@ export default function Home() {
           >
             <Typography className={styles.title}>umer kazi</Typography>
             <Typography className={styles.subtitle}>
-              swe @ appficiency • mathematics @ uwaterloo
+              development lead @ askcipher • founder @ folio
             </Typography>
           </motion.div>
           <motion.div // Wrap this Box in a motion.div to animate
@@ -234,21 +234,12 @@ export default function Home() {
             >
               folio
             </span>{" "}
-            to new heights. I&apos;m also wrapping up my degree at the{" "}
-            <span
-              className={styles.link}
-              onClick={() => {
-                window.open("https://uwaterloo.ca/", "_blank");
-              }}
-            >
-              University of Waterloo
-            </span>
-            , pursuing a Bachelor&apos;s in Mathematics, with a Minor in
-            Computer Science. Outside of school, you&apos;ll find me in my
-            garage, tackling my next automotive project. When I&apos;ve run out
-            of steam, I am out and about, capturing the beauty of the world. But
-            most importantly, I focus on raising awareness and making a tangible
-            impact on the issues affecting our global community
+            to new heights. i&apos;m also leading the software development of
+            b2c ai tooling at askcipher. Outside of school, you&apos;ll find me
+            in my garage, tackling my next automotive project. When I&apos;ve
+            run out of steam, I am out and about, capturing the beauty of the
+            world. But most importantly, I focus on raising awareness and making
+            a tangible impact on the issues affecting our global community
           </Typography>
         </motion.div>
       </Box>
@@ -274,11 +265,12 @@ export default function Home() {
                 <Box
                   className={styles.logo}
                   component="img"
-                  src="https://media.licdn.com/dms/image/C560BAQGuubBwCCa9fQ/company-logo_200_200/0/1630668034521/appficiency_inc_logo?e=2147483647&v=beta&t=98wUqM6NDFebBVtTkeQRMSPeYMMnD-ijyugpRXgO_D0"
+                  src="cipher-dark.jpg"
+                  style={{ border: "1px solid rgb(38, 38, 38)" }}
                 ></Box>
                 <Box className={styles.textContainer}>
                   <Typography className={styles.role}>
-                    Software Developer
+                    Development Lead
                   </Typography>
                   <Typography
                     className={styles.company}
@@ -286,12 +278,14 @@ export default function Home() {
                       window.open("https://www.appficiency.com/", "_blank");
                     }}
                   >
-                    Appficiency
+                    AskCipher
                   </Typography>
                 </Box>
               </Box>
               <Box className={styles.right}>
-                <Typography className={styles.date}>Fall 2024</Typography>
+                <Typography className={styles.date}>
+                  september 2024 - Present
+                </Typography>
               </Box>
             </Box>
             <Box className={styles.experience}>
@@ -316,7 +310,9 @@ export default function Home() {
                 </Box>
               </Box>
               <Box className={styles.right}>
-                <Typography className={styles.date}>Summer 2024</Typography>
+                <Typography className={styles.date}>
+                  May 2024 - August 2024
+                </Typography>
               </Box>
             </Box>
             <Box className={styles.experience}>
@@ -341,7 +337,9 @@ export default function Home() {
                 </Box>
               </Box>
               <Box className={styles.right}>
-                <Typography className={styles.date}>Winter 2024</Typography>
+                <Typography className={styles.date}>
+                  January 2024 - April 2024
+                </Typography>
               </Box>
             </Box>
             <Box className={styles.experience}>
@@ -366,7 +364,9 @@ export default function Home() {
                 </Box>
               </Box>
               <Box className={styles.right}>
-                <Typography className={styles.date}>Summer 2023</Typography>
+                <Typography className={styles.date}>
+                  May 2023 - August 2023
+                </Typography>
               </Box>
             </Box>
             <Box className={styles.experience}>
@@ -394,7 +394,9 @@ export default function Home() {
                 </Box>
               </Box>
               <Box className={styles.right}>
-                <Typography className={styles.date}>Fall 2022</Typography>
+                <Typography className={styles.date}>
+                  September 2022 - December 2022
+                </Typography>
               </Box>
             </Box>
             <Box className={styles.experience}>
@@ -402,7 +404,7 @@ export default function Home() {
                 <Box
                   className={styles.logo}
                   component="img"
-                  src="https://pbs.twimg.com/profile_images/1518763866674585601/OQiasZUI_400x400.jpg"
+                  src="https://play-lh.googleusercontent.com/REsKllzeBPCKZ4rnYEsERKC-Z9FupJL-VKd-bQkoXRwmoGTYXinBZF2R64SbrQp9aoU"
                 ></Box>
                 <Box className={styles.textContainer}>
                   <Typography className={styles.role}>
@@ -419,7 +421,9 @@ export default function Home() {
                 </Box>
               </Box>
               <Box className={styles.right}>
-                <Typography className={styles.date}>Winter 2022</Typography>
+                <Typography className={styles.date}>
+                  January 2022 - April 2022
+                </Typography>
               </Box>
             </Box>
             <Box className={styles.experience}>
@@ -447,7 +451,9 @@ export default function Home() {
                 </Box>
               </Box>
               <Box className={styles.right}>
-                <Typography className={styles.date}>Summer 2021</Typography>
+                <Typography className={styles.date}>
+                  May 2021 - August 2021
+                </Typography>
               </Box>
             </Box>
           </Box>
@@ -470,13 +476,23 @@ export default function Home() {
             some of the things i&apos;ve made
           </Typography>
           <Box className={styles.projectsContainer}>
-            <CustomTooltip title="RentGo">
+            {/* <CustomTooltip title="RentGo">
               <Box
                 className={styles.projectCard}
                 component="img"
                 src="./rg-dark.jpg"
                 onClick={() => {
                   window.open("https://www.rent-go.ca/", "_blank");
+                }}
+              />
+            </CustomTooltip> */}
+            <CustomTooltip title="Folio">
+              <Box
+                className={styles.projectCard}
+                component="img"
+                src="./folio-dark.jpg"
+                onClick={() => {
+                  window.open("https://www.foliotech.ca/", "_blank");
                 }}
               />
             </CustomTooltip>
@@ -497,16 +513,6 @@ export default function Home() {
                 src="./typhon-dark.png"
                 onClick={() => {
                   window.open("https://www.typhon.pro/", "_blank");
-                }}
-              />
-            </CustomTooltip>
-            <CustomTooltip title="Folio">
-              <Box
-                className={styles.projectCard}
-                component="img"
-                src="./folio-dark.jpg"
-                onClick={() => {
-                  window.open("https://www.foliotech.ca/", "_blank");
                 }}
               />
             </CustomTooltip>
