@@ -2,18 +2,284 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import { Box, Tooltip, Typography } from "@mui/material";
-import {
-  IconBrandGithub,
-  IconBrandLinkedin,
-  IconFileText,
-} from "@tabler/icons-react";
-import CustomTooltip from "./CustomTooltip";
-import { motion } from "framer-motion";
+import { Box, Typography } from "@mui/material";
+import { m, motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 
+// Photos
+import costaRica1 from "../../public/photos/costa_rica_1.jpg";
+import costaRica2 from "../../public/photos/costa_rica_2.jpg";
+import iceland1 from "../../public/photos/iceland_1.jpg";
+import london1 from "../../public/photos/london_1.jpg";
+import morocco1 from "../../public/photos/morocco_1.jpg";
+import morocco2 from "../../public/photos/morocco_2.jpg";
+import morocco4 from "../../public/photos/morocco_4.jpg";
+import portugal1 from "../../public/photos/portugal_1.jpg";
+import portugal2 from "../../public/photos/portugal_2.jpg";
+import saskatoon1 from "../../public/photos/saskatoon_1.jpg";
+import saskatoon2 from "../../public/photos/saskatoon_2.jpg";
+import saskatoon3 from "../../public/photos/saskatoon_3.jpg";
+import southAfrica1 from "../../public/photos/south_africa_1.jpg";
+import southAfrica2 from "../../public/photos/south_africa_2.jpg";
+import thunderBay1 from "../../public/photos/thunder_bay_1.jpg";
+import { useEffect, useState } from "react";
+
+const photos = [
+  {
+    id: 1,
+    src: costaRica1,
+    alt: "Costa Rica",
+    title: "Costa Rica",
+    description: "Monteverde Cloud Forest",
+  },
+  {
+    id: 5,
+    src: morocco1,
+    alt: "Morocco",
+    title: "Morocco",
+    description: "Sahara Desert",
+  },
+  {
+    id: 9,
+    src: portugal1,
+    alt: "Portugal",
+    title: "Portugal",
+    description: "Lisbon",
+  },
+  {
+    id: 3,
+    src: iceland1,
+    alt: "Iceland",
+    title: "Iceland",
+    description: "Kirkjubæjarklaustur",
+  },
+  {
+    id: 4,
+    src: london1,
+    alt: "London",
+    title: "United Kingdom",
+    description: "London",
+  },
+
+  {
+    id: 6,
+    src: morocco2,
+    alt: "Morocco",
+    title: "Morocco",
+    description: "Marrakesh",
+  },
+  {
+    id: 8,
+    src: morocco4,
+    alt: "Morocco",
+    title: "Morocco",
+    description: "Marrakesh",
+  },
+
+  {
+    id: 10,
+    src: portugal2,
+    alt: "Portugal",
+    title: "Portugal",
+    description: "Sintra",
+  },
+
+  {
+    id: 11,
+    src: saskatoon1,
+    alt: "Saskatoon",
+    title: "Canada",
+    description: "Saskatoon",
+  },
+  {
+    id: 16,
+    src: thunderBay1,
+    alt: "Thunder Bay",
+    title: "Canada",
+    description: "Thunder Bay",
+  },
+  {
+    id: 12,
+    src: saskatoon2,
+    alt: "Saskatoon",
+    title: "Canada",
+    description: "Saskatoon",
+  },
+  {
+    id: 13,
+    src: saskatoon3,
+    alt: "Saskatoon",
+    title: "Canada",
+    description: "Saskatoon",
+  },
+  {
+    id: 14,
+    src: southAfrica1,
+    alt: "South Africa",
+    title: "South Africa",
+    description: "Kruger National Park",
+  },
+  {
+    id: 15,
+    src: southAfrica2,
+    alt: "South Africa",
+    title: "South Africa",
+    description: "Kruger National Park",
+  },
+];
+
+const MasonryGrid = () => {
+  const [imagesLoaded, setImagesLoaded] = useState(0);
+  const [hoveredId, setHoveredId] = useState<number | null>(null);
+
+  useEffect(() => {
+    // Reset counter when photos array changes
+    setImagesLoaded(0);
+  }, [photos.length]);
+
+  // This function will be called each time an image loads
+  const handleImageLoad = () => {
+    setImagesLoaded((prev) => prev + 1);
+  };
+
+  // Only apply masonry calculations after all images are loaded
+  useEffect(() => {
+    if (imagesLoaded === photos.length) {
+      calculateLayout();
+    }
+  }, [imagesLoaded]);
+
+  const calculateLayout = () => {
+    const grid = document.querySelector(".masonry-grid");
+    if (!grid) return;
+
+    const rowHeight = 1; // Our grid-auto-rows value
+    const rowGap = parseInt(
+      window.getComputedStyle(grid).getPropertyValue("grid-row-gap") || "16",
+    );
+
+    const items = document.querySelectorAll(".masonry-item");
+    items.forEach((item) => {
+      const content = item.querySelector(".masonry-content");
+      if (!content) return;
+
+      const height = content.getBoundingClientRect().height;
+      const rowSpan = Math.ceil((height + rowGap) / (rowHeight + rowGap));
+      (item as HTMLElement).style.gridRowEnd = `span ${rowSpan}`;
+    });
+  };
+
+  // Add window resize listener
+  useEffect(() => {
+    window.addEventListener("resize", calculateLayout);
+    return () => {
+      window.removeEventListener("resize", calculateLayout);
+    };
+  }, []);
+
+  return (
+    <div
+      className="masonry-grid"
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
+        gap: "0.5rem",
+        width: "100%",
+        gridAutoRows: "1px",
+      }}
+    >
+      {photos.map((photo) => (
+        <div
+          key={photo.id}
+          className="masonry-item"
+          style={{
+            position: "relative",
+            overflow: "hidden",
+            borderRadius: "0.5rem",
+          }}
+          onMouseEnter={() => setHoveredId(photo.id)}
+          onMouseLeave={() => setHoveredId(null)}
+        >
+          <div
+            className="masonry-content"
+            style={{
+              position: "relative",
+              width: "100%",
+            }}
+          >
+            <div
+              style={{
+                position: "relative",
+                width: "100%",
+                height: "0",
+                paddingBottom: `${
+                  (1 / (photo.src.width / photo.src.height || 4 / 3)) * 100
+                }%`,
+              }}
+            >
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                style={{ objectFit: "cover", borderRadius: "0.5rem" }}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                priority={photo.id <= 6}
+                onLoad={handleImageLoad}
+              />
+            </div>
+
+            <div
+              style={{
+                position: "absolute",
+                inset: 0,
+                backgroundColor: `rgba(0, 0, 0, ${
+                  hoveredId === photo.id ? "0.6" : "0"
+                })`,
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "flex-end",
+                transition: "background-color 0.3s ease",
+                borderRadius: "0.5rem",
+              }}
+            >
+              <div
+                style={{
+                  padding: "1rem",
+                  transform: `translateY(${
+                    hoveredId === photo.id ? "0" : "100%"
+                  })`,
+                  transition: "transform 0.3s ease",
+                }}
+              >
+                <h3
+                  style={{
+                    color: "white",
+                    fontSize: "1.25rem",
+                    fontWeight: "bold",
+                    margin: 0,
+                  }}
+                >
+                  {photo.title}
+                </h3>
+                <p
+                  style={{
+                    color: "#B6B9BD",
+                    fontSize: "0.875rem",
+                    marginTop: "0.25rem",
+                  }}
+                >
+                  {photo.description}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
 export default function Home() {
-  const router = useRouter();
   return (
     <Box className={styles.main}>
       <Box className={styles.card} maxWidth="md">
@@ -225,7 +491,17 @@ export default function Home() {
             I am a future-focused software developer, forever entangled in the
             chase to make the world around me a better place! I&apos;m driven by
             projects that elevate the lives of mankind in an accessible and
-            impactful manner. Currently, I&apos;m scaling my business{" "}
+            impactful manner. Currently, i&apos;m leading the software
+            development of b2c ai tooling at{" "}
+            <span
+              className={styles.link}
+              onClick={() => {
+                window.open("https://www.askcipher.com/", "_blank");
+              }}
+            >
+              askcipher
+            </span>{" "}
+            . i&apos;m also scaling my business{" "}
             <span
               className={styles.link}
               onClick={() => {
@@ -234,12 +510,11 @@ export default function Home() {
             >
               folio
             </span>{" "}
-            to new heights. i&apos;m also leading the software development of
-            b2c ai tooling at askcipher. Outside of school, you&apos;ll find me
-            in my garage, tackling my next automotive project. When I&apos;ve
-            run out of steam, I am out and about, capturing the beauty of the
-            world. But most importantly, I focus on raising awareness and making
-            a tangible impact on the issues affecting our global community
+            to new heights. Outside of school, you&apos;ll find me in my garage,
+            tackling my next automotive project. When I&apos;ve run out of
+            steam, I am out and about, capturing the beauty of the world. But
+            most importantly, I focus on raising awareness and making a tangible
+            impact on the issues affecting our global community
           </Typography>
         </motion.div>
       </Box>
@@ -275,7 +550,7 @@ export default function Home() {
                   <Typography
                     className={styles.company}
                     onClick={() => {
-                      window.open("https://www.appficiency.com/", "_blank");
+                      window.open("https://www.askcipher.com/", "_blank");
                     }}
                   >
                     AskCipher
@@ -283,9 +558,7 @@ export default function Home() {
                 </Box>
               </Box>
               <Box className={styles.right}>
-                <Typography className={styles.date}>
-                  september 2024 - Present
-                </Typography>
+                <Typography className={styles.date}>Present</Typography>
               </Box>
             </Box>
             <Box className={styles.experience}>
@@ -385,7 +658,7 @@ export default function Home() {
                     onClick={() => {
                       window.open(
                         "https://www.siemens.com/global/en.html",
-                        "_blank"
+                        "_blank",
                       );
                     }}
                   >
@@ -442,7 +715,7 @@ export default function Home() {
                     onClick={() => {
                       window.open(
                         "https://www.linkedin.com/company/year-zero-studios/",
-                        "_blank"
+                        "_blank",
                       );
                     }}
                   >
@@ -471,66 +744,11 @@ export default function Home() {
             delay: 1.4,
           }}
         >
-          <Typography className={styles.title}>projects</Typography>
+          <Typography className={styles.title}>photos</Typography>
           <Typography className={styles.subtitle}>
-            some of the things i&apos;ve made
+            some of my favourite moments
           </Typography>
-          <Box className={styles.projectsContainer}>
-            {/* <CustomTooltip title="RentGo">
-              <Box
-                className={styles.projectCard}
-                component="img"
-                src="./rg-dark.jpg"
-                onClick={() => {
-                  window.open("https://www.rent-go.ca/", "_blank");
-                }}
-              />
-            </CustomTooltip> */}
-            <CustomTooltip title="Folio">
-              <Box
-                className={styles.projectCard}
-                component="img"
-                src="./folio-dark.jpg"
-                onClick={() => {
-                  window.open("https://www.foliotech.ca/", "_blank");
-                }}
-              />
-            </CustomTooltip>
-            <CustomTooltip title="Aegis Mapping">
-              <Box
-                className={styles.projectCard}
-                component="img"
-                src="./am-dark.jpg"
-                onClick={() => {
-                  window.open("https://www.aegismapping.ca/", "_blank");
-                }}
-              />
-            </CustomTooltip>
-            <CustomTooltip title="Typhon">
-              <Box
-                className={styles.projectCard}
-                component="img"
-                src="./typhon-dark.png"
-                onClick={() => {
-                  window.open("https://www.typhon.pro/", "_blank");
-                }}
-              />
-            </CustomTooltip>
-            <CustomTooltip title="Qabu">
-              <Box
-                className={styles.projectCard}
-                component="img"
-                src="./qa-dark.jpg"
-              />
-            </CustomTooltip>
-            <CustomTooltip title="Vaulted Vintage">
-              <Box
-                className={styles.projectCard}
-                component="img"
-                src="./vv-dark.jpg"
-              />
-            </CustomTooltip>
-          </Box>
+          <MasonryGrid />
         </motion.div>
       </Box>
       <Box
@@ -557,8 +775,8 @@ export default function Home() {
             <Typography className={styles.body}>
               Thanks for stopping by! If you&apos;d like to get in touch, feel
               free to send me an email at{" "}
-              <a href="mailto:u3kazi@uwaterloo.ca">
-                <span className={styles.link}>u3kazi@uwaterloo.ca</span>
+              <a href="mailto:umer@kazi.cc">
+                <span className={styles.link}>umer@kazi.cc</span>
               </a>{" "}
               or connect with me on{" "}
               <span
@@ -566,7 +784,7 @@ export default function Home() {
                 onClick={() => {
                   window.open(
                     "https://www.linkedin.com/in/umerkazi/",
-                    "_blank"
+                    "_blank",
                   );
                 }}
               >
