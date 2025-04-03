@@ -298,9 +298,7 @@ export default function Home() {
             }}
           >
             <Typography className={styles.title}>umer kazi</Typography>
-            <Typography className={styles.subtitle}>
-              development lead @ askcipher • founder @ folio
-            </Typography>
+            <Typography className={styles.subtitle}>founder @ folio</Typography>
           </motion.div>
           <motion.div // Wrap this Box in a motion.div to animate
             initial={{ opacity: 0 }}
@@ -454,7 +452,7 @@ export default function Home() {
             sx={{ display: { xs: "flex", sm: "none" } }}
             className={styles.subtitle2}
           >
-            swe @ wayfair • mathematics @ uwaterloo
+            founder @ folio
           </Box>
         </motion.div>
 
@@ -491,17 +489,7 @@ export default function Home() {
             I am a future-focused software developer, forever entangled in the
             chase to make the world around me a better place! I&apos;m driven by
             projects that elevate the lives of mankind in an accessible and
-            impactful manner. Currently, i&apos;m leading the software
-            development of b2c ai tooling at{" "}
-            <span
-              className={styles.link}
-              onClick={() => {
-                window.open("https://www.askcipher.com/", "_blank");
-              }}
-            >
-              askcipher
-            </span>{" "}
-            . i&apos;m also scaling my business{" "}
+            impactful manner. Currently, i&apos;m scaling my business{" "}
             <span
               className={styles.link}
               onClick={() => {
@@ -535,7 +523,7 @@ export default function Home() {
             some of the companies i&apos;ve worked with
           </Typography>
           <Box className={styles.experienceContainer}>
-            <Box className={styles.experience}>
+            {/* <Box className={styles.experience}>
               <Box className={styles.left2}>
                 <Box
                   className={styles.logo}
@@ -560,7 +548,7 @@ export default function Home() {
               <Box className={styles.right}>
                 <Typography className={styles.date}>Present</Typography>
               </Box>
-            </Box>
+            </Box> */}
             <Box className={styles.experience}>
               <Box className={styles.left2}>
                 <Box

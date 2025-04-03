@@ -107,16 +107,17 @@
 }
 
 .picture {
-  width: 200px;
+  width: 240px;
   border-radius: 10px;
   margin-right: 20px;
+  border: 2px solid #2e2e2e;
 }
 
 .picture2 {
-    float: left;
-    width: 180px;
-    border-radius: 10px;
-    margin-right: 10px;
+  float: left;
+  width: 180px;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .link {
@@ -182,7 +183,7 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   text-transform: lowercase;
-} 
+}
 
 .company:hover {
   color: var(--accent);
@@ -193,7 +194,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 10px
+  gap: 10px;
 }
 
 .date {
@@ -230,7 +231,7 @@
     height: calc(50% - 20px);
   }
   .projectsContainer {
-    gap: 10px
+    gap: 10px;
   }
 }
 
