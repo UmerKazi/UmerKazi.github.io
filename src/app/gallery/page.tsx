@@ -34,14 +34,14 @@ const linksTwo = [
 const galleryItems = [
   {
     id: 1,
-    src: "/costarica.jpg",
+    src: "/costarica.JPG",
     title: "green noise",
     description: "like white noise but leafier.",
     location: "monteverde, costa rica",
   },
   {
     id: 4,
-    src: "/sa.jpg",
+    src: "/sa.JPG",
     title: "stripe model",
     description: "low effort, high impact.",
     location: "kruger national park, south africa",
@@ -55,7 +55,7 @@ const galleryItems = [
   },
   {
     id: 6,
-    src: "/saskatoon.jpg",
+    src: "/saskatoon.JPG",
     title: "art break",
     description: "a quick one. then i left.",
     location: "saskatoon, canada",
@@ -63,14 +63,14 @@ const galleryItems = [
 
   {
     id: 2,
-    src: "/iceland.jpg",
+    src: "/iceland.JPG",
     title: "washed up",
     description: "literally and maybe metaphorically.",
     location: "glacier beach, iceland",
   },
   {
     id: 3,
-    src: "/portugal.jpg",
+    src: "/portugal.JPG",
     title: "peak porto",
     description: "somewhere down there is a bakery i liked.",
     location: "porto, portugal",
