@@ -64,14 +64,14 @@ export default function PrivacyPolicy() {
               Information We Collect
             </h2>
             <p className="leading-relaxed mb-3">
-              When you use Mambo's leaderboard features, we collect and store
-              the following information:
+              When you use Mambo&apos;s leaderboard features, we collect and
+              store the following information:
             </p>
             <p className="leading-relaxed mb-2">
               <span className="text-white">Profile Information:</span> Your
-              chosen player name (e.g., "SmartPlayer123"), selected country, and
-              country flag emoji. These are either auto-generated from your
-              device settings or customized by you.
+              chosen player name (e.g., &quot;SmartPlayer123&quot;), selected
+              country, and country flag emoji. These are either auto-generated
+              from your device settings or customized by you.
             </p>
             <p className="leading-relaxed mb-2">
               <span className="text-white">Game Performance Data:</span> Your
@@ -87,7 +87,7 @@ export default function PrivacyPolicy() {
 
           <section>
             <h2 className="text-xl font-medium text-white mb-3">
-              What We Don't Collect
+              What We Don&apos;t Collect
             </h2>
             <p className="leading-relaxed">
               Mambo does not collect email addresses, phone numbers, real names,
@@ -156,7 +156,7 @@ export default function PrivacyPolicy() {
 
           <section>
             <h2 className="text-xl font-medium text-white mb-3">
-              Children's Privacy
+              Children&apos;s Privacy
             </h2>
             <p className="leading-relaxed">
               Mambo is suitable for users of all ages. We do not knowingly
@@ -172,8 +172,8 @@ export default function PrivacyPolicy() {
             </h2>
             <p className="leading-relaxed">
               We may update this privacy policy from time to time. Any changes
-              will be reflected by updating the "Last updated" date at the top
-              of this page.
+              will be reflected by updating the &quot;Last updated&quot; date at
+              the top of this page.
             </p>
           </section>
 
